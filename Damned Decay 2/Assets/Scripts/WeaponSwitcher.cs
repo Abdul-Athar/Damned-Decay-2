@@ -16,7 +16,6 @@ public class WeaponSwitcher : MonoBehaviour
     {
         int previousWeapon = currentWeapon;
 
-        ProcessKeyInput();
         ProcessScrollWheel();
 
         if (previousWeapon != currentWeapon)
@@ -54,25 +53,6 @@ public class WeaponSwitcher : MonoBehaviour
             }
         }
     }
-
-        private void ProcessKeyInput()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            currentWeapon = 0;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            currentWeapon = 1;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            currentWeapon = 2;
-        }
-    }
-
 
     private void SetWeaponActive() // find which weapon is active.
     {
