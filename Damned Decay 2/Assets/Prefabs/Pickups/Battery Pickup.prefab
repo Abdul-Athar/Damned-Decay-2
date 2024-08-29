@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.782195, y: -1.2508357, z: 16.37623}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 6.10229, y: 6.10229, z: 6.10229}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 949725323199472898}
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a198a2f7f112324a957809afbaea749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restoreAngle: 90
-  addIntensity: 1
+  restoreAngle: 80
+  addIntensity: 3
 --- !u!136 &5754810072147438315
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -82,7 +82,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3807241088955836631}
   - component: {fileID: 6056424355108787677}
-  - component: {fileID: 6031478963677634698}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -117,14 +116,14 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0, g: 0.90932775, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
+    m_Type: 2
+    m_Resolution: 2
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
@@ -167,29 +166,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &6031478963677634698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7844750010601758197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
 --- !u!1001 &1064722095324248788
 PrefabInstance:
   m_ObjectHideFlags: 0
